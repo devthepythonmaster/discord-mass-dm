@@ -1,5 +1,4 @@
 import os
-os.system("pip install -r requirements.txt") #installing requirements.txt
 import sys
 import time
 import psutil
@@ -8,7 +7,6 @@ import logging
 import asyncio
 from tasksio import TaskPool
 from datetime import datetime
-from pyou import color
 from lib.scraper import Scraper
 from aiohttp import ClientSession
 
