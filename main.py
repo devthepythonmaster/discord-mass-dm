@@ -4,7 +4,7 @@ import time
 import psutil
 import random
 import logging
-from colorfy import color
+from pyreqs3 import color
 import asyncio
 from tasksio import TaskPool
 from datetime import datetime
